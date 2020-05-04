@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Volunteer Form</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  
+  
+  <style>
+    .my-form { 
+       margin: 3px;
+    }
+    
+  </style>
+  
+</head>
+
+<body>
+  <h1>Volunteer Form</h1>
+  <form method="post" netlify>
+    Your Name: <input class="my-form" type="text" name="your_name" value="" /> <br />
+    Your Email: <input class="my-form" type="email" name="email" value="" required /> <br />
+    
+    Gender: <br />
+    <input class="my-form" type="radio" name="gender" value="male" required />Male <br />
+    <input class="my-form" type="radio" name="gender" value="female" />Female <br />
+    
+    T-shirt size:
+    <select name="t_size" id="t-size"required>
+      <option value="">pick a shirt size</option>
+      <option value="XS">XS</option>
+      <option value="S">S</option>
+      <option value="M">M</option>
+      <option value="L">L</option>
+      <option value="XL">XL</option>
+      <option value="XXL">XXL</option>
+      <option value="other">Other</option>
+    </select>
+    <br />
+    Other: <input class="my-form" type="text" name="other" id="other" disabled />
+    
+    <br />
+    <p> Time of day you would like to volunteer</p>
+    <input class="my-form" type="checkbox" name="v_time" value="morning" /> Morning
+    <input class="my-form" type="checkbox" name="v_time" value="afternoon" /> Afternoon
+    <input class="my-form" type="checkbox" name="v_time" value="Evening" /> Evening
+    
+    </p>Additional Comments</p>
+    <textarea name="comments" cols="50" rows="5"></textarea>
+    <br />
+    <input class="my-form" type="submit" name="submit" value="Register" />
+  </form>
+
+ <!-- SCRIPTS-->
+ <script src="scripts/My-Scripts-form.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #58D68D;
+}
+
+.navbar-brand, .navlink {
+  color:black !important
+}
+.navbar-brand:hover, .navlink:hover {
+  color:#145A32 !important;
+}
+.dropdown-menu {
+  background-color:#F06292 !important
+}
+.carousel-caption {
+  background-color: rgb(80,0,40,.5)
+    /*
+    width: 50%;
+    margin: 0;
+    */
+}
+@media (max-width: 700px) {
+  .carousel {
+    display: none;
+  }
+}
+
+.my-google-font {
+  font-weight:bold;
+  font-size:30px;
+ font-family: 'Lacquer', sans-serif;
+}
+
+
+
+.fa-row {
+  background-color: red;
+  padding-top: 30px;
+  padding-bottom:40px;
+  color: #ffffff;
+  text-align: Center;
+}
+
+.fab {
+  font-size: 40px;s
+}
+.fab:hover, .fab-links:hover {
+  color: gold;
+  text-decoration: none;
+}
+
+.fab-links {
+  color: #ffffff;
+}
+
+.footer-row {
+  background-color: red;
+  padding-top: 30px;
+  padding-bottom:40px;
+  color: #ffffff;
+  text-align: Center;
+}
+
+.blank-row {
+  padding-top: 30px;
+}
+
+.video-row {
+  text-align: center;
+  padding: 32px;
+}
+
+.google-fonts-sample {
+  text-align: left !important;
+  font-family: Lacquer;
+  font-size: 28px;
+  padding-left: 40px;
+}
